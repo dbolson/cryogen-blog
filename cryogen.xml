@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>
+<channel>
+<atom:link href='http://dbolson.github.io' rel='self' type='application/rss+xml'/>
+<title>
+Rubber Duck Dialogs
+</title>
+<link>
+http://dbolson.github.io
+</link>
+<description>
+Talking out loud..on the internet
+</description>
+<lastBuildDate>
+Sun, 06 Dec 2015 12:03:22 -0800
+</lastBuildDate>
+<generator>
+clj-rss
+</generator>
+</channel>
+</rss>
