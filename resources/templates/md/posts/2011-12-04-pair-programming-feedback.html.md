@@ -2,7 +2,7 @@
 :layout :post
 :tags ["pair programming"]}
 
-It's been a few weeks of pair programming with the [new guys](/blog/2011/11/18/welcome-the-new-guys/),
+It's been a few weeks of pair programming with the [new guys](/posts/2011-11-18-welcome-the-new-guys.html.html),
 and it's been so enjoyable and valuable. Here's what I've experienced.
 
 ## Improved toolset
@@ -36,7 +36,7 @@ solution.
 Having more people in the office has made the place much more lively and interesting. Since we're
 such a small startup, any new person is going to have a major impact on the physical space of the
 office and the dynamic of the group (going from four to five is kind of a big deal). Our new
-[interview process](/blog/2011/10/07/our-interview-process/) seems to have worked because it's
+[interview process](/posts/2011-10-07-our-interview-process.html.html) seems to have worked because it's
 been a pleasure working with each new team member, and everyone gets along with everyone else.
 
 ## Exhaustion

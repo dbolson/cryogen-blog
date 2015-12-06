@@ -31,7 +31,7 @@ everything was under version control and can go on whatever machine I want.
 
 You can find my setup on [GitHub][6]. Feel free to take what you like.
 
-[1]: /blog/2011/12/22/can-we-have-too-many-tools/
+[1]: /posts/2011-12-22-can-we-have-too-many-tools.html.html
 [2]: https://github.com/carlhuda/janus
 [3]: https://github.com/tpope/vim-pathogen
 [4]: https://github.com/dbolson/dotvim/tree/master/bundle

@@ -2,7 +2,7 @@
 :layout :post
 :tags ["metaldetectr" "rails" "ruby"]}
 
-Some further explanation of how to get Metal Archives' JSON data from a [recent post](/blog/2011/05/23/scraping-a-site-when-it-changes-its-design)
+Some further explanation of how to get Metal Archives' JSON data from a [recent post][1]
 is necessary. Through reading the markup and trial and error, I found the URL to receive the data
 I needed.
 
@@ -38,7 +38,7 @@ This returns a result set that looks like this:
 ```
 
 You'll notice the `iTotalRecords` field which conveniently provides the total amount to releases
-available. You'll also notice the the `iDisplayStart` parameter in the URL that lets us step
+available. You'll also notice the `iDisplayStart` parameter in the URL that lets us step
 through the results 100 at a time. By looping through `(iTotalRecords / 100 + 1)` times,
 incrementing `iDispalyStart` by `i * 100`, we can get a result set for all the records very
 quickly.
@@ -87,3 +87,5 @@ end
 ```
 
 Quick and simple.
+
+[1]: /posts/2011-05-23-scraping-a-site-when-it-changes-its-design.html.html

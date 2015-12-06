@@ -6,7 +6,7 @@
 work and for [personal projects](https://github.com/dbolson). Until now, I haven't used it to its
 full effect, that is, contributing.
 
-For [MetalDetectr](/blog/2011/05/introducing-metaldetectr), I wanted to allow a user to filter the
+For [MetalDetectr](/posts/2011-05-14-introducing-metaldetectr.html.html), I wanted to allow a user to filter the
 list to see releases from artists he had in his [last.fm](http://www.last.fm/) library. A quick
 search led me to [this gem](https://github.com/youpy/ruby-lastfm), only it wasn't as
 fully-featured as I needed.
