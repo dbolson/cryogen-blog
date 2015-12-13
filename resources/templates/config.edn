@@ -3,7 +3,7 @@
  :description        "Thinking out loud, on the internet"
  :site-url           "https://dbolson.github.io"
  :post-root          "posts"
- :tag-root           "tags"
+ :tag-root           "categories"
  :page-root          "pages"
  :blog-prefix        ""
  :rss-name           "feed.xml"
