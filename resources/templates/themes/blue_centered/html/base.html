@@ -59,7 +59,7 @@
                         {% if tags|not-empty %}
                         <li class="divider"></li>
                         <li class="dropdown-header">Categories</li>
-                        {% for tag in tags %}
+                        {% for tag in tags|sort-by:name %}
                         <li><a href="{{tag.uri}}">{{tag.name}}</a></li>
                         {% endfor %}
                         {% endif %}
