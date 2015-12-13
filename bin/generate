@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd resources/public
+
+timestamp=`date +"%Y-%m-%d"`
+git add . && git commit -m "Generate site on $timestamp."
+git push
+
+echo "Generated site on $timestamp."

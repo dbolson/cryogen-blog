@@ -8,11 +8,11 @@ info_msg() { echo "$@" 1>&2; }
 }
 
 timestamp=`date +"%Y-%m-%d"`
-name=`echo -n "$*" | tr -cs '[:alnum:]' '-'`
+name=`echo -n "$*" | tr -cs '[:alnum:]' '-' | tr '[:upper:]' '[:lower:]'`
+
 post_dir="resources/templates/md/posts"
 new_post=$post_dir/$timestamp-$name.md
-echo $new_post
 
-touch "$new_post"
+echo -e "{:title \"$@\"\n:layout :post\n:tags []}" >> $new_post
 
 info_msg "New post created: $new_post" >&2
