@@ -1,0 +1,18 @@
+#!/bin/bash
+
+info_msg() { echo "$@" 1>&2; }
+
+[ $# -gt 0 ] || {
+  echo "Usage: $0 blog post title" >&2;
+  exit 1
+}
+
+timestamp=`date +"%Y-%m-%d"`
+name=`echo -n "$*" | tr -cs '[:alnum:]' '-'`
+post_dir="resources/templates/md/posts"
+new_post=$post_dir/$timestamp-$name.md
+echo $new_post
+
+touch "$new_post"
+
+info_msg "New post created: $new_post" >&2
