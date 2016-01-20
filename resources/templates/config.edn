@@ -18,6 +18,6 @@
  :disqus?            false
  :disqus-shortname   ""
  :ignored-files      [#"\.#.*" #".*\.swp$"]
- :posts-per-page     5
+ :posts-per-page     3
  :blocks-per-preview 2
- :previews?          false}
+ :previews?          true}
