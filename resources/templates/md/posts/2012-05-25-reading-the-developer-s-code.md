@@ -1,6 +1,6 @@
 {:title "Reading - The Developer's Code"
 :layout :post
-:tags ["book reviews"]}
+:tags ["book review"]}
 
 I recently finished reading [The Developer's Code][1] and found some ideas that really resonate.
 There's a lot in the book that feels very obvious, but then I realize how long it took me to learn
