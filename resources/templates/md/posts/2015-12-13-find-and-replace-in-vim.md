@@ -2,11 +2,9 @@
 :layout :post
 :tags ["productivity" "vim"]}
 
-Find and replace in Vim has been something I've always struggled with, but here, at last, is the solution.
+Find and replace in Vim has been something I've always struggled with, but here, at last, is the solution: [*How I Find and Replace in Vim*][1]
 
-**[How I Find and Replace in Vim][1]**
-
-This requires [ack][2].
+Note: This requires [ack][2].
 
 ```
 :args `ack -l '\b{text to replace}\b' --ignore-dir=compiled --ignore-file=is:tags`
