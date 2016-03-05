@@ -3,8 +3,10 @@
  :description        "Thinking out loud, on the internet"
  :site-url           "https://dbolson.github.io"
  :post-root          "posts"
- :tag-root           "categories"
  :page-root          "pages"
+ :post-root-uri      "posts-output"
+ :page-root-uri      "pages-output"
+ :tag-root-uri       "tags-output"
  :blog-prefix        ""
  :rss-name           "feed.xml"
  :rss-filters        ["cryogen"]
@@ -18,6 +20,6 @@
  :disqus?            false
  :disqus-shortname   ""
  :ignored-files      [#"\.#.*" #".*\.swp$"]
- :posts-per-page     3
- :blocks-per-preview 2
+ :posts-per-page     5
+ :blocks-per-preview 1
  :previews?          true}
