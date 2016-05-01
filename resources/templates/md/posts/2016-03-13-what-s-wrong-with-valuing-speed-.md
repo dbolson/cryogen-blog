@@ -1,5 +1,6 @@
 {:title "What's Wrong with Valuing Speed?"
 :layout :post
+:draft? true
 :tags ["testing" "refactoring"]}
 
 * lay out tech debt as good argument
