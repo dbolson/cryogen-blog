@@ -81,7 +81,7 @@ Now we can do this:
 = display_badge(RequestedApprovals.requested_for_manager(current_user).count)
 ```
 
-## Testing
+### Testing
 
 We tested this through the controller as an integration test. This was slow, but it ensured the
 proper behavior while we refactored.

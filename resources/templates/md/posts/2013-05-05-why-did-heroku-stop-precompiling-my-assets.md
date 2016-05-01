@@ -10,7 +10,7 @@ ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
 
 Odd...It works in development. What could have happened?
 
-## The search
+### The Search
 
 I ran the application locally with the development environment and got the same error. Great, at
 least it's reproducible. Let's hit the Googles...
@@ -19,7 +19,7 @@ Hmm, some mentions in [twitter-bootstrap-rails][1] and some scattered [StackOver
 questions, but nothing that works. Then I noticed Heroku was no longer precompiling the assets on
 deploy.
 
-## The discovery
+### The Discovery
 
 The [Heroku docs][3] have this glorious quote:
 
@@ -31,7 +31,7 @@ The [Heroku docs][3] have this glorious quote:
 A recent change added some configuration variables in `application.rb` that referenced some
 environment variables.
 
-## The fix
+### The Fix
 
 Based on some more [documentation][4] and [community help][5], I moved the configuration into an
 initializer that is loaded after the slug compilation when it can access the environment

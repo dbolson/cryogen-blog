@@ -5,7 +5,7 @@
 It's been a few weeks of pair programming with the [new guys](/posts/2011-11-18-welcome-the-new-guys.html.html),
 and it's been so enjoyable and valuable. Here's what I've experienced.
 
-## Improved toolset
+### Improved Toolset
 
 Since there are multiple people working on the same computers, we need a shared toolset. Some of
 us like [RubyMine](https://www.jetbrains.com/ruby/), while others prefer the awesomeness of vim.
@@ -21,7 +21,7 @@ vim customizations and plugins, and it's been great. Command-T is almost worth i
 also introduced me to [git-grep](https://github.com/tjennings/git-grep-vim), which has been much
 faster than vimgrep.
 
-## Improved code
+### Improved Code
 
 The value of the discussion-aspect of pairing becomes immediately obvious when there's a
 disagreement. [Trying to argue ones position on a subject exposes how much one really understands
@@ -31,7 +31,7 @@ a great didactic tool for all parts of the development process – pretty much a
 would write is subject for debate, and the discussions are invaluable for coming up with the best
 solution.
 
-## More fun
+### More Fun
 
 Having more people in the office has made the place much more lively and interesting. Since we're
 such a small startup, any new person is going to have a major impact on the physical space of the
@@ -39,7 +39,7 @@ office and the dynamic of the group (going from four to five is kind of a big de
 [interview process](/posts/2011-10-07-our-interview-process.html.html) seems to have worked because it's
 been a pleasure working with each new team member, and everyone gets along with everyone else.
 
-## Exhaustion
+### Exhaustion
 
 Pair programming is fun, but it's tiring to work so intimately and intensly with someone all day.
 The productivity has gone up a lot because of the focus, the breaks have become more separate (not

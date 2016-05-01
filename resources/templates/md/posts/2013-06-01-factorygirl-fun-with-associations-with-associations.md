@@ -53,7 +53,7 @@ widget.account == widget.doodad.account # => false
 
 The instance of `Doodad` has an account that's created when it's created, so `widget`'s account and `doodad`'s account will be different accounts. This can be a problem if it matters that both belong to the same account.
 
-## Yo dawg, I heard you like associations...
+### Yo dawg, I heard you like associations...
 
 We can use [lazy attributes][3] to set the `doodad`'s account to be the same as the `Widget`'s.
 

@@ -21,11 +21,11 @@ destroy it as normal. Well, almost. [Apparently](https://github.com/rails/rails/
 there is a bug in Rails 2.3.5 that will save the child model twice, and we're experiencing that
 now.
 
-## What I want to do
+### What I want to do
 
 Upgrade to Rails 3.1, get all the new hotness and bug fixes, and not worry about this problem.
 
-## What I'm going to do
+### What I'm going to do
 
 Since we don't have the resources to upgrade Rails (yet…), we need a workaround. Here's what we
 came up with.

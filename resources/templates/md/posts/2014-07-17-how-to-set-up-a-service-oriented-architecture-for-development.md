@@ -29,7 +29,7 @@ It's also convenient to label the tabs to know where to look for an application'
 need to name each tab as well. This is boring and error prone as it's very easy to forget to start
 an application that could prevent the entire system from working as expected.
 
-## Consular to the Rescue!
+### Consular to the Rescue!
 
 We just recently found out about [Consular][2] to automate terminal tasks and turn the above
 headache into a one command solution.
@@ -81,7 +81,7 @@ end
 
 Now all you need to do is run one command, `consular start soa-setup`.
 
-## Some tweaks
+### Some tweaks
 
 It's nice to not have to do this (minimal) song and dance for each development machine, so we
 packaged this up into some scripts to make the process easier.

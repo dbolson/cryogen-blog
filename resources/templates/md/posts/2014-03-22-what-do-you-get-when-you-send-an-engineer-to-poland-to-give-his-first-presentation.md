@@ -17,7 +17,7 @@ Some of the best talks for me go into detail on a specific topic with lots of ex
 Domokos' "[Simple and Elegant Rails Code with Functional Style][6]" is one example, and I wanted
 to emulate that style of deep diving.
 
-## Preparation
+### Preparation
 
 Two great resources were [speaking.io][7] for how to give the talk and [reveal.js][8] for the
 presentation. Reveal.js was super simple to set up, and it let me use Markdown for the content.
@@ -39,7 +39,7 @@ lot of psychological barriers, but I figured I should just keep going – prepar
 slides, the content. My coworkers were a big help, giving me support, feedback, and
 accountability. After all, I couldn't back out when everyone I work with would know about it.
 
-## The conference
+### The conference
 
 [Wrocław][10] was fun. It's very pretty, has a lot of history (the [dwarfs][11] were a nice
 touch), and the food was good and plentiful. The conference took place at the [university][12] and
@@ -54,7 +54,7 @@ conference I've attended.
 
 **Lowlight**: Jet lag. Boo.
 
-## The talk
+### The talk
 
 Well, it was finally time. I plugged in my computer, set up the microphone, got introduced, and
 proceeded to rip through my slides at lightening speed. Nerves and tunnel vision do quite a number
@@ -64,14 +64,14 @@ important that I went through the talk numerous times, adding notes each time an
 comfortable with the material. The difference between my first run-through and the last was night
 and day.
 
-## It's over already?
+### It's over already?
 
 And then I was done. There were a few questions, some definitely because I spoke too fast. After
 some applause, a dozen audience members came up to the podium to ask more specific questions. We
 ended up digging through the code of the [sample application][14]. Everyone was very nice and we
 had some good discussions. It felt good to know that the content resonated enough to talk to me.
 
-## Next steps
+### Next steps
 
 I can now say that I'm a conference presenter. It feels good, but there's a lot of room to
 improve. To that end, I've submitted the talk to more upcoming conferences, so hopefully you'll be
@@ -84,7 +84,7 @@ and can present the material more slowly and effectively.
 It was a great experience, that I recommend to everyone. We've all have hard-fought experiences
 that we can teach others. I've done a conference talk and so can you.
 
-## Lessons learned
+### Lessons learned
 
 * It's going to happen so just keep moving forward.
 * A support network is invaluable.
@@ -92,7 +92,7 @@ that we can teach others. I've done a conference talk and so can you.
 * Practice, practice, practice.
 * People are nice so don't be afraid of them.
 
-## Postscript
+### Postscript
 
 Here are the [slides][15] and here is the [video][16].
 

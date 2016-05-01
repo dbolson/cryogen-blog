@@ -94,7 +94,7 @@ RSpec.configure do |config|
 end
 ```
 
-## Notes
+### Notes
 
 * We set `js: true` to load Capybara since we need to execute JavaScript in the test (more on that
   below). This was what loads the browser and slowed down tests, so don't use it unless you need
@@ -107,7 +107,7 @@ end
 * We also needed to change RSpec to not use transactional fixtures by default. More about that
   [here][3].
 
-## Results
+### Results
 
 We now know if the form breaks for a normal new or update action. We can and probably will add to
 these tests and we discover bugs and add new features, but we now have the plumbing in place to do

@@ -9,7 +9,7 @@ concern is presenting it properly, and one method is to delineate releases by wh
 a user wants to see. This can be by release date, by the band's name, by the release's name, or by
 the release's format (eg, EP, full-length, DVD).
 
-## The algorithm
+### The algorithm
 
 * Start with a table row showing the earliest or most recent, depending on sort order, of the
 selected sort column.
@@ -24,7 +24,7 @@ during that month. When a release is next month, it will show next month and the
 from that month. Continue on through the rest of the releases. If the user wants to see the list
 in descending order, it will show the last month first and work its way to the most current month.
 
-## The code
+### The code
 
 First find the first value and display it in a full column span table row:
 

@@ -43,7 +43,7 @@ And in the view:
 
 Which creates a link to `foo_path`.
 
-## What's going on?
+### What's going on?
 
 We need to include `url_helpers()` to get the named routes to access `foo_path()`.
 
@@ -55,7 +55,7 @@ is
 
 This gives us access to helper methods like `content_tag()`.
 
-## Isn't this still overkill?
+### Isn't this still overkill?
 
 Many have [discussed][6] this before, so I'll just reiterate that OOP is nicer than procedural
 code, so there.

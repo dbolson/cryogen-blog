@@ -35,7 +35,7 @@ considered a form of [waste][5] in the Lean sense)?
 We also decided not to practice TDD since we were essentially backfilling tests and it's [not
 really TDD anymore][6].
 
-## Let the Retrofitting Begin
+### Let the Retrofitting Begin
 
 1. Find the next function that's called
 1. Move it to the appropriate backbone view or model without changing the internals of the
@@ -60,7 +60,7 @@ $(function() {
 });
 ```
 
-## Take-aways
+### Take-aways
 
 * **We must always be professionals**: Assume any code you're paid to write is going to get used.
   As a professional and a craftsman, we strive to create value with our work. We must use the best

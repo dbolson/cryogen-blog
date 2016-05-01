@@ -6,7 +6,7 @@ I've got a class that has a collaborator class. The collaborator takes a start d
 date as arguments. I want to test that the original object instantiates the collaborator with the
 right dates.
 
-## A little tricky
+### A Little Tricky
 
 The tests fail if I were to assert that the collaborator should receive dates as its arguments.
 
@@ -26,7 +26,7 @@ Stub :a_collaborator received :new with unexpected arguments
 
 Time comparison in Ruby is a little tricky. So what do we do?
 
-## An unexpected expectation syntax
+### An Unexpected Expectation Syntax
 
 It [turns out][1] that RSpec has another expectation syntax that will let us do some manipulation
 of the date arguments. Check this out:

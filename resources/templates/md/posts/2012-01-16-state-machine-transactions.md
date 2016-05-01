@@ -24,13 +24,13 @@ def after_close
 end
 ```
 
-## The problem
+### The Problem
 
 It turns out that the callbacks are not wrapped in a transaction and that `#after_close` is called
 after the model saves, leaving the associated model in danger of getting in a back state or
 failing validations.
 
-## The solution
+### The Solution
 
 Using [this post](http://rhnh.net/2010/07/05/acts-as-state-machine-is-not-concurrent) as a guide,
 we ended up with this code:
@@ -58,7 +58,7 @@ event :close do
 end
 ```
 
-## Other transitions...
+### Other Transitions...
 
 Now there is a transaction around the entire state change and its callbacks, and we'll be able to
 sleep tonight knowing that all the saving is safe and sound, all wrapped up in a nice, warm

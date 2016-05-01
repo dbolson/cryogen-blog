@@ -6,7 +6,7 @@ Rails makes it easy to package our CSS files using the asset pipeline – just p
 files in the `application.css` manifest file or set `require_tree .` to automatically pull in all
 the appropriate files.
 
-## If only it were that easy...
+### If only it were that easy...
 
 Using the asset pipeline keeps each `.scss` file in its own namespace, so you will need to import
 any files that have variables we want to use in the current file.
@@ -42,7 +42,7 @@ notification.scss
 Each of these files will probably want to have access to Bootstrap variables and site-wide
 variables, but we will need to import everything we want to use.
 
-## A DRYer way
+### A DRYer way
 
 h/t to [Pivotal Labs][2] for the implementation and the [link][3] to the docs:
 
@@ -79,12 +79,12 @@ A few notes about this:
 * We could load each Bootstrap file individually if we want to reduce its footprint, but loading
   the entire library is easier to illustrate here.
 
-## Results
+### Results
 
 We can make our code more modular by easily reusing variables and mixins. Maybe we can even work
 toward more [semantic naming][5]...
 
-## One caveat
+### One caveat
 
 We had to remove the `spec/javascripts/spec.css` file that loaded the manifest file since that is
 now `.scss` and not `.css`. This upset [Jasmine][6], and we don't like it when Jasmine is upset.

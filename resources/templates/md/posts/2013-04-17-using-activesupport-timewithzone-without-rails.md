@@ -36,7 +36,7 @@ end
 
 The corresponding tests didn't like `Time.zone` – they thought it was nil. Which it is.
 
-## The fix
+### The Fix
 
 The tests need the proper `ActiveSupport` module loaded, and the time zone needs to be set.
 
