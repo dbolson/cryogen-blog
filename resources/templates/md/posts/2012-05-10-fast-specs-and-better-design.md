@@ -1,6 +1,6 @@
 {:title "Fast specs and better design"
 :layout :post
-:tags ["tests"]}
+:tags ["testing"]}
 
 [Corey Haines][1] first brought testing parts of Rails applications without loading Rails to my
 attention and excitement a few months ago, and I've been looking at how other developers do
