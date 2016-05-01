@@ -1,4 +1,4 @@
-{:title "My Tools, My Choice"
+{:title "Tools and Teams"
 :layout :post
 :tags ["pair programming" "tools" "vim"]}
 
